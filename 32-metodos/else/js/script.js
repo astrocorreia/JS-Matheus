@@ -8,3 +8,11 @@ const cachorro = {
 }
 cachorro.uivar();
 cachorro.rosnar();
+
+
+let cão = {
+    latir: function() {
+        console.log("AU AU");
+    }
+}
+cão.latir();

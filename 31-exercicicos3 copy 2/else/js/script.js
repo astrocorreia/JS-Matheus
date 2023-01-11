@@ -17,9 +17,3 @@ console.log(calculadora.subtrair(5,5));
 console.log(calculadora.multiplicar(8,2));
 console.log(calculadora.dividir(5,2));
 
-let cachorro = {
-    latir: function() {
-        console.log("AU AU");
-    }
-}
-cachorro.latir();
