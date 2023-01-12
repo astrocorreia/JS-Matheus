@@ -13,7 +13,7 @@ class Cachorro {
 let labrador =  new Cachorro("Labrador", 4, "Preta");
 
 console.log(labrador);
-// Também podemos acrescentar metodos e propriedades numa class, como no exemplo abaixo:
+// Também podemos acrescentar metodos e propriedades numa class, somente via prototype como no exemplo abaixo:
 
 class Cao {
     constructor(raca, cor) {
