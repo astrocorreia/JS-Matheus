@@ -27,10 +27,12 @@ class Conta {
         constructor(saldoCC, saldoCP, juros) {
             super(saldoCC, saldoCP, juros * 2)
         }
+        
     }
 
 let conta = new Conta(1000, 5000, 1);
 console.log(conta);
+
 
 conta.saque(500);
 console.log(conta);
@@ -55,6 +57,8 @@ console.log(conta2);
 
 conta2.jurosDeAniversario();
 console.log(conta2);
+
+
 
 
 
