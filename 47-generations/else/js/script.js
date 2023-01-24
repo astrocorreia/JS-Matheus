@@ -1,3 +1,4 @@
+ 
  function* criadorId() {
     let id = 0;
     while(true) {
@@ -15,6 +16,8 @@
  console.log(criaId.next().value);
   
  console.log(criaId.next());
+
+ 
 
 
 
