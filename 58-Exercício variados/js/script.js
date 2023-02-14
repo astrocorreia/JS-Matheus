@@ -24,3 +24,6 @@ console.log(astro);
 
 var num = 89; 33; 12;
 console.log(89 - 33 + 12 );
+
+let Nome = "Astro";
+console.log(Nome);
